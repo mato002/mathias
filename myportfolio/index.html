@@ -14,15 +14,15 @@
 
             <nav>
                 <img src="images/matechlogo.png"  class="logo">
-                <ul class="sidemenu">
+                <ul class="sideMenu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">portfolio</a></li>
                     <li><a href="#">services</a></li>
                     <li><a href="#">contact</a></li>
-                    <i class="fa-regular fa-rectangle-xmark" onclick="closemenu()"></i>
+                    <i class="fa-regular fa-rectangle-xmark" onclick="closeMenu()"></i>
                 </ul>
-                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
 
 
             </nav>
@@ -185,8 +185,43 @@
             <p>Copyright <i class="fa-solid fa-copyright"></i>  Matech Made wtih<i class="fa-solid fa-heart"></i>by matech's foundation</p>
         </div>
     </div>
+<script>
+    var tabLinks = document.getElementsByClassName("tab-links");
+var tabContents = document.getElementsByClassName("tab-contents");
+var event = document.getElementsByClassName("active-link");
+function openTab(tabName){
+for(tabLink of tabLinks){
+tabLink.classList.remove("active-link");
+
+}
+
+
+for(tabContent of  tabContents){
+
+
+    tabContent.classList.remove("active-tab");
+
+}
+ addEventListener;{
+ document.getElementById(tabName).classList.add("active-tab");
+}
+}
+
+
+</script>
+
+<script>
+    var sideMenu = document.getElementById("sideMenu");
+function openMenu(){
+    sideMenu.style.right = "0";
+
+}
+function closeMenu(){
+    sideMenu.style.right = "0";
+}
+</script>
 
     
-<script src="index.js"></script>
+<script src="iex.js"></script>
 </body>
 </html> 

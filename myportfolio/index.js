@@ -20,11 +20,11 @@ for(tabContent of  tabContents){
 }
 
 
-var sidemenu = document.getElementById("sidemenu");
-function openmenu(){
-    sidemenu.style.right = "0";
+var sideMenu = document.getElementById("sideMenu");
+function openMenu(){
+    sideMenu.style.right = "0";
 
 }
-function closemenu(){
-    sidemenu.style.right = "0";
+function closeMenu(){
+    sideMenu.style.right = "0";
 }

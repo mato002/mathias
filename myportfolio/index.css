@@ -438,62 +438,101 @@ border-radius: 6px;
     .header-text h1 {
         font-size: 30px;
     }
-}
-
-.fa-solid.fa-bars{
-    color: white;
-
-}
-
-.fa-regular.fa-rectangle-xmark{
+    nav .fa-solid.fa-bars{
+        display: block;
+        font-size: 25px;
     
-    color: white;
-}
+    }
+    nav ul{
+        background: #ff004f;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
 
-nav .fa-regular.fa-rectangle-xmark{
-    display: block;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+        
+    
+    }
+    nav ul .fa-regular.fa-rectangle-xmark{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    
+    
+    }
+    nav ul .fa-solid.fa-bars{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    
+    
+    }
+    
+   
+    nav .fa-regular.fa-rectangle-xmark{
+        display: block;
+        font-size: 25px;
+        color:white;
+    
+    }
+    nav .fa-solid.fa-bars{
+        display: block;
+        font-size: 25px;
+        color: white;
+        
+        
+    
+    }
+    .sub-tittle{
+        font-size: 40px;
+    }
+    .about-col-1, .about-col-2{
+        flex-basis: 100%;
+        
+
+    }
+    .about-col-1{
+        margin-bottom: 30px;
+
+    }
+    .about-col-2{
+        font-size: 14px;
+    }
+
+    .tab-links{
+        font-size: 16px;
+        margin-right: 20px;
+    }
+
+}
+.nav .fa-regular.fa-rectangle-xmark{
     font-size: 25px;
-
+    display: none;
+    
 }
+
 nav .fa-solid.fa-bars{
-    display: block;
+    display: none;
     font-size: 25px;
 
 }
 
-nav ul{
-    
-    position: fixed;
-    top: 10px;
-    right: 200px;
-    height: 250px;
-    padding-top: 50p;
-    background-color: #ff004f;
-
-}
-
-nav ul li{
-    display: block;
-    margin: 25px;
-    
-
-}
-
-nav ul .fa-regular.fa-rectangle-xmark{
-    position: absolute;
-    top: 25px;
-    left: 25px;
-    cursor: pointer;
 
 
-}
-nav ul .fa-solid.fa-bars{
-    position: absolute;
-    top: 25px;
-    left: 25px;
-    cursor: pointer;
 
 
-}
+
+
+
 
 
